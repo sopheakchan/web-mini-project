@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="./output.css" rel="stylesheet">
+  <title>quizbox sign up page</title>
+</head>
+<body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+      <div class="container mx-auto px-3 py-3 flex justify-between items-center">
+          <div class="text-2xl font-bold text-blue-500">
+              <a href="#">QuizBox</a>
+          </div>
+          <div>
+              <a href="index.html" class="mx-2 text-gray-700 hover:text-blue-500">Home</a>
+              <a href="about.html" class="mx-2 text-gray-700 hover:text-blue-500">About</a>
+              <a href="#" class="mx-2 text-gray-700 hover:text-blue-500">Contact</a>
+          </div>
+          <div>
+              <a href="login.html" class="mx-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Login</a>
+              <a href="signup.html" class="mx-2 px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white">Sign Up</a>
+          </div>
+      </div>
+  </nav>
+
+  <main class="flex flex-col items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md w-xl">
+        <h1 class="text-3xl font-semibold mb-6">Sign Up</h1>
+        <p class="text-gray-600 mb-6">It's not long before you embark on this journey!</p>
+        <form action="#">
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="name@email.com" class="mt-2 p-3 w-full border rounded-lg" required>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-gray-700">Password</label>
+                <input type="password" id="password" name="password" placeholder="8+ Characters, 1 Capital letter" class="mt-2 p-3 w-full border rounded-lg" required>
+            </div>
+            <div class="mb-4 flex items-center">
+                <input type="checkbox" id="terms" name="terms" class="mr-2" required>
+                <label for="terms" class="text-gray-700">I've read and agree with <a href="#" class="text-blue-600">Terms of Service</a> and our <a href="#" class="text-blue-600">Privacy Policy</a></label>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">Create an account</button>
+        </form>
+        <p class="text-gray-700 mt-4">Already have an account? <a href="#" class="text-blue-600">Sign In</a></p>
+    </div>
+</main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 mt-16 h-[200px]">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex mb-4 sm:mb-0">
+                <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook.png" alt="Facebook" class="h-6"></a>
+                <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" class="h-6"></a>
+                <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram.png" alt="Instagram" class="h-6"></a>
+            </div>
+            <div class="text-sm">
+                <a href="#" class="block sm:inline-block sm:mx-2">Donation</a>
+                <a href="#" class="block sm:inline-block sm:mx-2">Home</a>
+                <a href="#" class="block sm:inline-block sm:mx-2">About</a>
+                <a href="#" class="block sm:inline-block sm:mx-2">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="https://kit.fontawesome.com/5ce14b4205.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

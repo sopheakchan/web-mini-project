@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
+    <title>quizbox</title>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-3 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-500">
+                <a href="">QuizBox</a>
+            </div>
+            <div>
+                <a href="index.html" class="mx-2 text-gray-700 hover:text-blue-500">Home</a>
+                <a href="about.html" class="mx-2 text-gray-700 hover:text-blue-500">About</a>
+                <a href="#" class="mx-2 text-gray-700 hover:text-blue-500">Contact</a>
+            </div>
+            <div>
+                <a href="login.html"
+                    class="mx-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Login</a>
+                <a href="signup.html"
+                    class="mx-2 px-4 py-2 border border-blue-500 text-blue-500 rounded-lg hover:bg-blue-500 hover:text-white">Sign
+                    Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-16">
+        <h1 class="text-6xl font-bold text-gray-800 mb-4">Quiz<span class="text-blue-500">Box</span></h1>
+        <p class="text-lg text-gray-600 mb-12">QuizBox is considered as practice exams <br>for medical students before
+            they appear for the final one.</p>
+
+        <!-- card content -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-evenly">
+            <!-- card1 -->
+            <div class="bg-blue-500 text-white p-4 rounded shadow-md w-[300px] h-[225px]">
+                <i class="fa fa-stethoscope bg-slate-400 p-2 rounded-2xl"></i>
+                <h2 class="text-2xl font-bold mb-4">Medicine</h2>
+                <ul class="grid grid-cols-2 gap-x-8 gap-y-2">
+                    <li href="#" class=" text-white hover:text-black">Year1</li>
+                    <li href="#" class=" text-white hover:text-black">Year4</li>
+                    <li href="#" class=" text-white hover:text-black">Year2</li>
+                    <li href="#" class=" text-white hover:text-black">Year5</li>
+                    <li href="#" class=" text-white hover:text-black">Year3</li>
+                    <li href="#" class=" text-white hover:text-black">Year6</li>
+                </ul>
+            </div>
+            <!-- card2 -->
+            <div class="bg-blue-500 text-white p-4 rounded shadow-md w-[300px] h-[225px]">
+                <i class="fa-solid fa-pills bg-slate-400 p-2 rounded-2xl"></i>
+                <h2 class="text-2xl font-bold mb-4">Phamarcy</h2>
+                <ul class="grid grid-cols-2 gap-x-8 gap-y-2">
+                    <li href="#" class=" text-white hover:text-black">Year1</li>
+                    <li href="#" class=" text-white hover:text-black">Year4</li>
+                    <li href="#" class=" text-white hover:text-black">Year2</li>
+                    <li href="#" class=" text-white hover:text-black">Year5</li>
+                    <li href="#" class=" text-white hover:text-black">Year3</li>
+                </ul>
+            </div>
+            <!-- card3 -->
+            <div class="bg-blue-500 text-white p-4 rounded shadow-md w-[300px] h-[225px]">
+                <i class="fa fa-tooth bg-slate-400 p-2 rounded-2xl"></i>
+                <h2 class="text-2xl font-bold mb-4">Dentistry</h2>
+                <ul class="grid grid-cols-2 gap-x-8 gap-y-2">
+                    <li href="#" class=" text-white hover:text-black">Year1</li>
+                    <li href="#" class=" text-white hover:text-black">Year4</li>
+                    <li href="#" class=" text-white hover:text-black">Year2</li>
+                    <li href="#" class=" text-white hover:text-black">Year5</li>
+                    <li href="#" class=" text-white hover:text-black">Year3</li>
+                    <li href="#" class=" text-white hover:text-black">Year6</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- 6steps to add your question -->
+    <section class=" flex items-center justify-center min-h-screen">
+        <div class="w-11/12 md:w-9/12 lg:w-8/12 mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-8 pt-10 pb-5">6 STEPS to add your test</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-gray-200 mb-4">01.</div>
+                    <h3 class="text-xl font-semibold mb-2">Get your MCQs ready</h3>
+                    <p>Prepare yourself a proper file or get the link of the site of MCQs that is reachable by us.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-gray-200 mb-4">02.</div>
+                    <h3 class="text-xl font-semibold mb-2">Send us through FB page</h3>
+                    <p>Send to our Facebook page (QuixBox) the file or the link to access the MCQs.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-gray-200 mb-4">03.</div>
+                    <h3 class="text-xl font-semibold mb-2">Tell us about it</h3>
+                    <p>Briefly explain the test and its purpose. We'll ask a few questions to determine if it should be posted on our website.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-gray-200 mb-4">04.</div>
+                    <h3 class="text-xl font-semibold mb-2">Acceptance</h3>
+                    <p>If the MCQ test benefits a large number of students beyond a small private group, we will consider accepting it</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-gray-200 mb-4">05.</div>
+                    <h3 class="text-xl font-semibold mb-2">Test being created</h3>
+                    <p>After acceptance, we will create the test. The time needed depends on the type and number of MCQs and our current workload.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-gray-200 mb-4">06.</div>
+                    <h3 class="text-xl font-semibold mb-2">Voilà! Enjoy testing!</h3>
+                    <p>Once created, we will post it on our website for everyone to access and prepare for the exam, free of charge!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16 h-[200px]">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col sm:flex-row justify-between items-center">
+                <div class="flex mb-4 sm:mb-0">
+                    <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook.png" alt="Facebook" class="h-6"></a>
+                    <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" class="h-6"></a>
+                    <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram.png" alt="Instagram" class="h-6"></a>
+                </div>
+                <div class="text-sm">
+                    <a href="#" class="block sm:inline-block sm:mx-2">Donation</a>
+                    <a href="#" class="block sm:inline-block sm:mx-2">Home</a>
+                    <a href="#" class="block sm:inline-block sm:mx-2">About</a>
+                    <a href="#" class="block sm:inline-block sm:mx-2">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/5ce14b4205.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
